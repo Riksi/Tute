@@ -1,0 +1,361 @@
+/* FB */
+
+        div.vcenter {
+            margin: 5vh auto 0;
+            height: 600px;
+            width: 342px;
+            text-align: center;
+        }
+        div.iphone-wrapper {
+            display: inline-block;
+            height: 600px;
+            width: 342px;
+            position: relative;
+        }
+        div.iphone-wrapper > img {
+            height: 100%;
+            width: auto;
+            display: block;
+        }
+        div.screen-content {
+
+          position: absolute;
+          top: 65px;
+          bottom:120px;
+          left: 50px;
+          right:58px;
+          background: #000;
+          border-radius: 3px;
+          overflow: hidden;
+      }
+
+        @media (min-width: 768px) {
+        div.screen-content {
+
+          position: absolute;
+          top: 115px;
+          bottom: 70px;
+          left: 50px;
+          right:58px;
+          background: #000;
+          border-radius: 3px;
+          overflow: hidden;
+      }
+        }
+        
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+.main .btn, .featurette .btn{
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  border:none;
+}
+
+.pricing h3{
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.pricing .panel-body h4{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.pricing .panel-body p{
+  font-size: 18px;
+}
+
+
+.featurette .btn{
+  margin-top: 20px;
+}
+
+.intro .btn{
+    margin-top: 50px;
+    background-color:  deepskyblue;
+    border-radius: 20px;
+}
+
+.featurette:nth-of-type(1) .btn{
+  background-color:  cornflowerblue;
+}
+
+.featurette:nth-of-type(2) .btn{
+  background-color:  palevioletred;
+}
+
+.featurette:last-of-type .btn{
+  background-color:  lightcoral;
+}
+
+.btn:hover{
+  background-color: initial;
+  color: white;
+  opacity: 0.6;
+}
+
+.intro .btn:hover{
+  background-color: deepskyblue;
+}
+
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+.jumbotron h1{
+  font-size: 40px;
+  font-weight: bolder;
+  color: black !important;
+}
+
+h2{
+  font-size: 18px;
+}
+
+.intro{
+  margin-top: 100px;
+}
+
+.navbar{
+  width: 100%;
+  height: 70px;
+  margin-bottom: 0;
+  border: none;
+}
+
+#navbar{
+  height: 100% !important;
+  width: 100%;
+}
+
+.nav-container{
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-header{
+  height: 100%;
+}
+
+.navbar-brand{
+  height: 100%;
+  line-height: 40px;
+  font-weight: bolder;
+  font-size: 32px;
+  color: deepskyblue;
+}
+
+.navbar-brand:active, .navbar-brand:focus, .navbar-brand:visited,
+.navbar-brand:hover{
+  color: deepskyblue;
+}
+
+footer ul{
+  padding: 20px;
+}
+
+footer li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+footer li a{
+  color: deepskyblue;
+}
+
+.navbar ul, .navbar ul *{
+  height: 100%;
+}
+
+.navbar ul>li>a {
+  line-height: 40px; 
+}
+
+.navbar .dropdown-toggle{
+  height: initial;
+}
+
+#navbar li a{
+  color: deepskyblue;
+}
+
+#navbar button{
+  background-color: transparent;
+  border-radius: 20px;
+  border-color: deepskyblue;
+}
+
+#nav-signup *:hover{
+  background: white;
+}
+
+#nav-signup button:hover{
+  color: white;
+  background: deepskyblue;
+}
+
+
+@media (min-width: 768px) {
+  img{
+    margin-top: 50px;
+  }
+}
+
+.photo{
+  height: 95%;
+  width: 95%;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.main{
+  min-height: 700px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 700px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 700px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 700px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+@media (min-width: 768px) {
+  .featurette{
+    height: 500px;
+  }
+}
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+.panel{
+  height: 500px;
+  box-shadow: 5px black;
+}
+
+.col-lg-6{
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 80px;
+  }
+}
