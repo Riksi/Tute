@@ -63,9 +63,25 @@
   letter-spacing: 2px;
 }
 
+
+
+.pricing h5 {
+  color: cornflowerblue
+}
+
+.pricing h5{
+  font-size: 20px;
+}
+
+.pricing h5 span{
+  font-size: 32px;
+}
+
+
 .pricing .panel-body h4{
   font-size: 28px;
   font-weight: bold;
+  font-variant: small-caps;
 }
 
 .pricing .panel-body p{
