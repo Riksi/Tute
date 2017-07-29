@@ -89,6 +89,16 @@
 }
 
 
+@media (min-width: 768px) {
+  .badges h2{
+    font-size: 28px;
+  }
+  .badges p{
+    font-size: 18px;
+  }
+}
+
+
 .featurette .btn{
   margin-top: 20px;
 }
