@@ -1,5 +1,7 @@
           $(function() {
               var now = new Date();
+              
+
               $('.screen-content').fbMessenger({
                   botName: 'Tute',
                   botBannerUrl: '',
@@ -34,3 +36,5 @@
 
               .fbMessenger('run');
           });
+
+
